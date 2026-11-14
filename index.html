@@ -25,7 +25,6 @@
   input,select{width:100%;height:46px;padding:0 14px;border:1.5px solid var(--line);border-radius:12px;font-size:16px;background:var(--in);color:var(--text);font-family:inherit;transition:border-color .15s,box-shadow .15s}
   input:focus,select:focus{outline:0;border-color:var(--brand);box-shadow:0 0 0 4px rgba(212,32,47,.12)}
  
-  /* ---------- Tugmalar ---------- */
   .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;height:46px;padding:0 20px;border:0;border-radius:12px;font-family:inherit;font-size:15px;font-weight:600;letter-spacing:.2px;cursor:pointer;white-space:nowrap;transition:transform .12s,box-shadow .15s,background .15s,filter .15s;user-select:none}
   .btn svg{width:18px;height:18px;flex:none}
   .btn:active{transform:translateY(1px) scale(.99)}
@@ -50,7 +49,6 @@
  
   .err{background:#fdecea;color:var(--bad);padding:11px 14px;border-radius:12px;font-size:14px;margin-top:14px;border:1px solid #f7cfcb}
   .okmsg{background:var(--ok-l);color:var(--ok);padding:11px 14px;border-radius:12px;font-size:14px;margin-bottom:14px;border:1px solid #c9ead8}
-  .card .err+.btn,.card .okmsg+.btn{margin-top:14px}
   .auth{max-width:420px;margin:24px auto}
   .brand{text-align:center;margin-bottom:18px}
   .brand .logo{width:64px;height:64px;border-radius:20px;background:var(--brand-g);color:#fff;font-size:30px;display:grid;place-items:center;margin:0 auto 12px;box-shadow:0 12px 26px rgba(212,32,47,.35)}
@@ -60,7 +58,6 @@
  
   .hero{background:var(--brand-g);color:#fff;border-radius:20px;padding:16px 18px;margin-bottom:14px;box-shadow:0 12px 28px rgba(180,20,31,.32);display:flex;justify-content:space-between;align-items:center;gap:10px}
   .hero .sub{font-size:13px;opacity:.9;margin-top:2px}
-  .hero .live{color:#fff}.hero .live::before{background:#7dffb1}
   .tabs{display:flex;gap:8px;margin-bottom:14px;overflow-x:auto;scrollbar-width:none;padding-bottom:2px}
   .tabs::-webkit-scrollbar{display:none}
   .tabs button{flex:none;height:44px;padding:0 18px;border:0;border-radius:12px;background:#fff;color:var(--brand);font-family:inherit;font-size:14px;font-weight:600;cursor:pointer;box-shadow:0 2px 8px rgba(180,20,31,.1);transition:.15s;display:inline-flex;align-items:center;gap:8px}
@@ -69,9 +66,7 @@
   .badge{background:var(--brand);color:#fff;font-size:12px;font-weight:700;min-width:20px;height:20px;border-radius:10px;display:inline-grid;place-items:center;padding:0 6px}
   .tabs button.on .badge{background:#fff;color:var(--brand)}
  
-  /* ---------- Qidiruv ---------- */
   .srow{display:grid;grid-template-columns:1fr auto;gap:10px;margin-bottom:10px}
-  .srow:last-of-type{margin-bottom:8px}
   .chips{display:flex;gap:8px;flex-wrap:wrap}
   .chip{height:34px;padding:0 14px;border:0;border-radius:20px;background:#fff;color:#7a5a5f;font-family:inherit;font-size:13px;font-weight:600;cursor:pointer;box-shadow:inset 0 0 0 1.5px var(--line)}
   .chip.on{background:var(--brand);color:#fff;box-shadow:none}
@@ -86,7 +81,6 @@
   .stars{color:var(--gold);letter-spacing:1px;font-size:16px}.stars i{color:#e6cfd2;font-style:normal}
   .tag{display:inline-block;background:#fff;color:var(--brand);font-size:12px;font-weight:600;padding:3px 10px;border-radius:20px;margin:2px 4px 2px 0;box-shadow:inset 0 0 0 1px #f2c3c9}
   .tag.me{background:var(--ok-l);color:var(--ok);box-shadow:none}
-  .tag.top{background:#fff4dc;color:#b87400;box-shadow:none}
   .pill{display:inline-block;font-size:12px;font-weight:700;padding:3px 10px;border-radius:20px}
   .pill.pending{background:var(--warn-l);color:var(--warn)}
   .pill.confirmed,.pill.done{background:var(--ok-l);color:var(--ok)}
@@ -101,18 +95,15 @@
   .sec{margin-top:18px;padding-top:6px;border-top:1px dashed #efbcc3}
   .locrow{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:8px}
 
-  /* ---------- Services Input ---------- */
   .service-item{display:grid;grid-template-columns:1fr 120px auto;gap:8px;margin-bottom:8px;align-items:center}
   .service-check{display:flex;align-items:center;justify-content:space-between;background:#fff;padding:10px 14px;border-radius:10px;border:1.5px solid var(--line);margin-bottom:6px;cursor:pointer}
   .service-check input{width:auto;height:auto;accent-color:var(--brand)}
  
-  /* ---------- Reyting ---------- */
   .rate{display:inline-flex;gap:2px}
   .rate button{background:none;border:0;font-size:30px;line-height:1;color:#e6cfd2;cursor:pointer;padding:2px 3px;transition:transform .1s}
   .rate button.on{color:var(--gold)}
   .rate button:hover{transform:scale(1.15)}
  
-  /* ---------- Kalendar ---------- */
   .weeknav{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;gap:8px}
   .cal{overflow-x:auto}
   table{border-collapse:separate;border-spacing:4px;width:100%;min-width:640px}
@@ -143,7 +134,6 @@
   .mc{border-radius:12px;padding:10px 4px;text-align:center;font-size:12px;display:flex;flex-direction:column;gap:2px;min-height:54px;justify-content:center}
   .mc b{font-size:15px}
  
-  /* ---------- Modal / karta ---------- */
   .modal{position:fixed;inset:0;background:rgba(40,8,12,.6);backdrop-filter:blur(3px);display:grid;place-items:center;padding:16px;z-index:10;overflow:auto}
   .modal .box{background:#fff5f6;border-radius:22px;padding:22px;width:100%;max-width:420px;box-shadow:0 30px 60px rgba(0,0,0,.3)}
   .amount{text-align:center;margin:8px 0 14px}
@@ -156,9 +146,6 @@
   .ccard .holder{font-size:14px;font-weight:500;opacity:.95;padding-right:100px}
   .copy{position:absolute;right:14px;bottom:12px;z-index:1;background:rgba(255,255,255,.22);color:#fff;border:0;border-radius:8px;height:34px;padding:0 12px;font-family:inherit;font-size:13px;font-weight:600;cursor:pointer}
   .copy:hover{background:rgba(255,255,255,.34)}
-  .steps{margin:16px 0 0;padding:0;list-style:none;counter-reset:s}
-  .steps li{counter-increment:s;display:flex;gap:10px;font-size:14px;color:#4a4345;padding:5px 0}
-  .steps li::before{content:counter(s);flex:none;width:22px;height:22px;border-radius:50%;background:#fff;color:var(--brand);font-weight:700;font-size:12px;display:grid;place-items:center;margin-top:1px;box-shadow:inset 0 0 0 1px #f2c3c9}
   .sum .r{display:flex;justify-content:space-between;gap:10px;padding:9px 0;border-bottom:1px solid var(--line);font-size:15px}
   .sum .r:last-child{border:0}
   .sum .r span:first-child{color:var(--hint)}
@@ -177,7 +164,6 @@
   #toast.show{opacity:1;transform:translate(-50%,0)}
   #toast.ok{background:#177a45} #toast.bad{background:var(--bad)}
  
-  /* ---------- Telefon ---------- */
   @media(max-width:640px){
     .desk{display:none}.mob{display:block}
     .wrap{padding:10px 10px calc(24px + env(safe-area-inset-bottom))}
@@ -208,12 +194,12 @@
 <script>
 try{Telegram.WebApp.ready();Telegram.WebApp.expand();}catch(e){}
  
-/* ================= Ma'lumotlar qatlami (Supabase & Vercel API) ================= */
 const SES = 'bs_session';
 const API_URL = 'https://beckenduz.onrender.com/api/db';
+const ADMIN_LOGIN = 'norboyevblog'; // Maxfiy admin logini
+const ADMIN_PASS = '12213443';    // Admin paroli
 
-const empty = () => ({ users: [], posts: {}, bookings: [], ratings: [], dayOffs: {}, favorites: {} });
-
+const empty = () => ({ users: [], posts: {}, bookings: [], ratings: [], dayOffs: {}, favorites: {}, settings: { monthlyFee: 10000, adminCard: '8600000000000000', adminCardHolder: 'Admin' }, subRequests: [], expenses: 0 });
 let CACHED_DB = empty();
 
 async function loadAsync() {
@@ -227,6 +213,9 @@ async function loadAsync() {
     d.ratings = d.ratings || [];
     d.dayOffs = d.dayOffs || {};
     d.favorites = d.favorites || {};
+    d.settings = d.settings || { monthlyFee: 10000, adminCard: '8600000000000000', adminCardHolder: 'Admin' };
+    d.subRequests = d.subRequests || [];
+    d.expenses = d.expenses || 0;
     CACHED_DB = d;
     return d;
   } catch (e) {
@@ -234,9 +223,7 @@ async function loadAsync() {
   }
 }
 
-function load() {
-  return CACHED_DB;
-}
+function load() { return CACHED_DB; }
 
 async function saveAsync(db) {
   CACHED_DB = db;
@@ -251,9 +238,7 @@ async function saveAsync(db) {
   }
 }
 
-function save(db) {
-  saveAsync(db);
-}
+function save(db) { saveAsync(db); }
  
 async function hash(s){
   if(window.crypto&&crypto.subtle){
@@ -263,15 +248,13 @@ async function hash(s){
   return 'p:'+s;
 }
  
-/* ================= Yordamchilar ================= */
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const pad=n=>String(n).padStart(2,'0');
 const ymd=d=>`${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}`;
 const money=n=>Number(n).toLocaleString('ru-RU')+" so'm";
 const DAYS=['Dush','Sesh','Chor','Pay','Jum','Shan','Yak'];
-const normLogin=s=>s.trim().toLowerCase();
-const LOGIN_RE=/^[a-z0-9_.]{6,}$/;
+const normPhone=s=>s.replace(/\D/g,'');
 const toMin=t=>{const[h,m]=t.split(':').map(Number);return h*60+m};
 const fromMin=m=>`${pad(Math.floor(m/60))}:${pad(m%60)}`;
 const fmtCard=s=>String(s||'').replace(/\D/g,'').slice(0,16).replace(/(.{4})/g,'$1 ').trim();
@@ -288,13 +271,13 @@ const DISTRICTS={"Bektemir":[41.2096,69.3344],"Chilonzor":[41.2756,69.2035],"Mir
   "Yakkasaroy":[41.2886,69.2530],"Yashnobod":[41.2870,69.3320],"Yunusobod":[41.3680,69.2900],"Yangihayot":[41.2600,69.1500]};
 function km(a,b,c,d){const R=6371,r=x=>x*Math.PI/180,dl=r(c-a),dn=r(d-b);const h=Math.sin(dl/2)**2+Math.cos(r(a))*Math.cos(r(c))*Math.sin(dn/2)**2;return 2*R*Math.asin(Math.sqrt(h))}
 function postPos(p){if(p.lat!=null&&p.lng!=null)return[p.lat,p.lng];return DISTRICTS[p.district]||null}
- 
-function rating(db,login){const r=db.ratings.filter(x=>x.barber===login);return{n:r.length,avg:r.length?r.reduce((s,x)=>s+x.stars,0)/r.length:0}}
-const starsHtml=avg=>{const n=Math.round(avg);return `<span class="stars">${'★'.repeat(n)}<i>${'★'.repeat(5-n)}</i></span>`};
-const ratingLine=r=>r.n?`${starsHtml(r.avg)} <b>${r.avg.toFixed(1)}</b> <span class="hint">(${r.n} ta baho)</span>`:`<span class="hint">☆ Hali baholanmagan</span>`;
-const rateInput=(barber,cur)=>`<span class="rate">${[1,2,3,4,5].map(n=>`<button class="${n<=cur?'on':''}" aria-label="${n} yulduz" onclick="rate('${esc(barber)}',${n})">★</button>`).join('')}</span>`;
-const canRate=(db,client,barber)=>db.bookings.some(b=>b.client===client&&b.barber===barber&&st(b)==='done');
-const myRating=(db,client,barber)=>db.ratings.find(x=>x.client===client&&x.barber===barber)?.stars||0;
+
+function isSubActive(p){
+  if(!p) return false;
+  if(p.isSuspended) return false;
+  const until = p.subUntil || (Date.now() + 30*24*3600*1000);
+  return until > Date.now();
+}
  
 const IC={
   check:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>',
@@ -316,97 +299,526 @@ let toastT;
 function toast(msg,type=''){const t=$('toast');t.textContent=msg;t.className='show '+type;clearTimeout(toastT);toastT=setTimeout(()=>t.className='',3800)}
  
 const S={mode:'login',role:'mijoz',user:null,tab:null,viewing:null,week:0,day:null,modal:null,msg:null,err:null,draft:null,editing:false,
-  q:'',dist:'',sort:'rating',pos:null, selectedServices:[], onlyFav:false};
+  q:'',dist:'',sort:'rating',pos:null, selectedServices:[], onlyFav:false, showForgotModal:false, showPass:false, resetModalUser:null, showNewPass:false};
  
 function currentUser(){
   const l=localStorage.getItem(SES); if(!l)return null;
+  if(l === ADMIN_LOGIN) return {login: ADMIN_LOGIN, name: 'Admin', role: 'admin', phone: ADMIN_LOGIN};
   return load().users.find(u=>u.login===l)||null;
 }
 S.user=currentUser();
-if(S.user)S.tab=S.user.role==='sartarosh'?'post':'all';
+if(S.user){
+  if(S.user.login === ADMIN_LOGIN) S.tab='admin_stat';
+  else S.tab=S.user.role==='sartarosh'?'post':'all';
+}
 const pendingCount=()=>S.user&&S.user.role==='sartarosh'?load().bookings.filter(b=>b.barber===S.user.login&&st(b)==='pending').length:0;
 let lastPending=pendingCount();
 const formOpen=()=>!!S.user&&S.user.role==='sartarosh'&&S.tab==='post'&&!S.viewing&&(S.editing||!load().posts[S.user.login]);
  
 function authView(){
-  const reg=S.mode==='register', forgot=S.mode==='forgot';
-  const title=reg?"Ro'yxatdan o'tish":forgot?'Parolni tiklash':'Kirish';
   return `<div class="auth"><div class="brand"><div class="logo">✂</div><h1>Sartaroshxona</h1><div class="hint">Onlayn yozilish platformasi</div></div>
-  <div class="card"><h2>${title}</h2>
-  ${forgot?'':`<div class="seg">
+  <div class="card"><h2>${S.mode==='register'?"Ro'yxatdan o'tish":'Kirish'}</h2>
+  <div class="seg">
      <button class="${S.role==='sartarosh'?'on':''}" onclick="setRole('sartarosh')">✂ Sartarosh</button>
-     <button class="${S.role==='mijoz'?'on':''}" onclick="setRole('mijoz')">👤 Mijoz</button></div>`}
-  ${reg?`<label>Ismingiz</label><input id="a_name" placeholder="Masalan: Aziz Norboyev">`:''}
-  ${(reg||forgot)?`<label>Telefon raqam</label><input id="a_phone" type="tel" placeholder="+998 90 123 45 67">`:''}
-  <label>Login ${reg?'(kamida 6 ta belgi, lotin harf/raqam)':''}</label>
-  <input id="a_login" autocomplete="username" autocapitalize="none" placeholder="misol: norboyev">
-  <label>${forgot?'Yangi parol':'Parol'} ${reg||forgot?'(kamida 6 ta belgi)':''}</label>
-  <input id="a_pass" type="password" autocomplete="${reg||forgot?'new-password':'current-password'}" placeholder="123456">
+     <button class="${S.role==='mijoz'?'on':''}" onclick="setRole('mijoz')">👤 Mijoz</button></div>
+  <label>Telefon raqam</label>
+  <input id="a_phone" type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="+998 90 123 45 67">
+  
+  <label>Parol ${S.mode==='register'?'(kamida 6 ta belgi)':''}</label>
+  <div style="position:relative">
+    <input id="a_pass" type="${S.showPass?'text':'password'}" autocomplete="new-password" style="padding-right:45px" placeholder="••••••">
+    <button type="button" onclick="toggleShowPass()" style="position:absolute;right:10px;top:50%;transform:translateY(-50%);background:none;border:0;cursor:pointer;font-size:18px;padding:4px" title="Parolni ko'rsatish/yashirish">${S.showPass?'🙈':'👁️'}</button>
+  </div>
+
   ${S.err?`<div class="err">${esc(S.err)}</div>`:''}${S.msg?`<div class="okmsg" style="margin:14px 0 0">${esc(S.msg)}</div>`:''}
-  <button class="btn primary block" onclick="${reg?'doRegister()':forgot?'doReset()':'doLogin()'}">${reg?IC.user+"Ro'yxatdan o'tish":forgot?IC.key+'Parolni almashtirish':IC.in+'Kirish'}</button>
-  <div style="display:flex;justify-content:space-between;margin-top:12px;flex-wrap:wrap">
-   ${forgot?`<button class="link" onclick="go('login')">← Kirishga qaytish</button>`:
-     reg?`<button class="link" onclick="go('login')">Akkauntim bor — kirish</button>`:
-     `<button class="link" onclick="go('forgot')">Parolni unutdingizmi?</button><button class="link" onclick="go('register')">Ro'yxatdan o'tish</button>`}
-  </div></div></div>`;
+  <button class="btn primary block" onclick="${S.mode==='register'?'doRegister()':'doLogin()'}">${S.mode==='register'?IC.user+"Ro'yxatdan o'tish":IC.in+'Kirish'}</button>
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-top:14px;flex-wrap:wrap">
+   <button class="link" onclick="openForgotModal()">Parolni unutdingizmi?</button>
+   ${S.mode==='register'?`<button class="link" onclick="go('login')">Kirish</button>`:
+     `<button class="link" onclick="go('register')">Ro'yxatdan o'tish</button>`}
+  </div></div></div>
+  ${S.showForgotModal ? forgotModalView() : ''}`;
 }
+
+function toggleShowPass(){
+  S.showPass = !S.showPass;
+  render();
+}
+
+function toggleShowNewPass(){
+  S.showNewPass = !S.showNewPass;
+  render();
+}
+
+function openForgotModal(){ S.showForgotModal=true; render(); }
+function closeForgotModal(){ S.showForgotModal=false; render(); }
+
+function forgotModalView(){
+  return `<div class="modal" onclick="if(event.target===this){closeForgotModal()}"><div class="box">
+    <h2>Parolni tiklash</h2>
+    <p style="margin:10px 0;font-size:14px;color:var(--text)">Parolni tiklash uchun adminga Telegram orqali murojaat qiling:</p>
+    <div style="background:var(--brand-l);color:var(--brand);padding:12px;border-radius:12px;font-weight:700;text-align:center;font-size:16px;margin:12px 0">
+      @norboyevadmen
+    </div>
+    <button class="btn primary block" onclick="closeForgotModal()">Tushunarli</button>
+  </div></div>`;
+}
+
 function go(m){S.mode=m;S.err=null;S.msg=null;render()}
 function setRole(r){S.role=r;S.err=null;render()}
-const val=id=>($(id)?.value||'');
+const val=id=>($(id)?.value||'').trim();
  
 async function doRegister(){
-  const name=val('a_name').trim(),phone=val('a_phone').trim(),login=normLogin(val('a_login')),pass=val('a_pass');
-  if(name.length<2)return fail('Ismingizni kiriting');
-  if(phone.replace(/\D/g,'').length<9)return fail("Telefon raqamni to'g'ri kiriting");
-  if(!LOGIN_RE.test(login))return fail("Login kamida 6 ta belgi bo'lishi va faqat lotin harf, raqam, _ yoki . dan iborat bo'lishi kerak");
+  const phone=val('a_phone'), pass=val('a_pass');
+  if(phone.length<9)return fail("Telefon raqamni to'g'ri kiriting");
   if(pass.length<6)return fail("Parol kamida 6 ta belgi bo'lishi kerak");
   const db=load();
-  if(db.users.some(u=>u.login===login))return fail("Bu login band. Boshqa login tanlang");
-  db.users.push({login,pass:await hash(pass),role:S.role,name,phone});
+  if(db.users.some(u=>u.login===phone))return fail("Bu telefon raqam allaqachon ro'yxatdan o'tgan!");
+  
+  const newUser = {login: phone, pass: await hash(pass), role: S.role, name: S.role==='sartarosh' ? 'Sartarosh' : 'Mijoz', phone: phone};
+  db.users.push(newUser);
   save(db);
-  S.mode='login';S.err=null;S.msg="Ro'yxatdan o'tdingiz! Endi login va parol bilan kiring.";render();
+  S.mode='login'; S.err=null; S.msg="Muvaffaqiyatli ro'yxatdan o'tdingiz! Endi kiring."; render();
 }
+
 async function doLogin(){
-  const login=normLogin(val('a_login')),pass=val('a_pass');
-  const u=load().users.find(x=>x.login===login);
-  if(!u||u.pass!==await hash(pass))return fail("Login yoki parol noto'g'ri");
-  if(u.role!==S.role)return fail(`Bu akkaunt "${u.role}" sifatida ro'yxatdan o'tgan. Yuqoridan to'g'ri rolni tanlang`);
+  const loginInput=val('a_phone'), pass=val('a_pass');
+  
+  if(loginInput.toLowerCase() === ADMIN_LOGIN) {
+    if(pass !== ADMIN_PASS) return fail("Telefon raqam yoki parol noto'g'ri");
+    localStorage.setItem(SES, ADMIN_LOGIN);
+    Object.assign(S, {user: {login: ADMIN_LOGIN, name: 'Admin', role: 'admin', phone: ADMIN_LOGIN}, tab: 'admin_stat', viewing: null, err: null, msg: null, draft: null, editing: false, week: 0, day: null, modal: null});
+    render();
+    return;
+  }
+
+  const db=load();
+  const u=db.users.find(x=>x.login===loginInput || normPhone(x.login)===normPhone(loginInput));
+  if(!u||u.pass!==await hash(pass))return fail("Telefon raqam yoki parol noto'g'ri");
+  
+  if(u.role !== S.role) {
+    return fail(`Bu raqam "${u.role}" sifatida ro'yxatdan o'tgan. Rolni to'g'ri tanlang`);
+  }
+
   localStorage.setItem(SES,u.login);
-  Object.assign(S,{user:u,tab:u.role==='sartarosh'?'post':'all',viewing:null,err:null,msg:null,draft:null,editing:false,week:0,day:null,modal:null});render();
+  Object.assign(S,{user:u,tab:u.role==='sartarosh'?'post':'all',viewing:null,err:null,msg:null,draft:null,editing:false,week:0,day:null,modal:null}); render();
 }
-async function doReset(){
-  const login=normLogin(val('a_login')),phone=val('a_phone').replace(/\D/g,''),pass=val('a_pass');
-  const db=load(),u=db.users.find(x=>x.login===login);
-  if(!u)return fail('Bunday login topilmadi');
-  if(u.phone.replace(/\D/g,'')!==phone)return fail("Telefon raqam ro'yxatdan o'tishdagi raqamga mos kelmadi");
-  if(pass.length<6)return fail("Yangi parol kamida 6 ta belgi bo'lishi kerak");
-  u.pass=await hash(pass);save(db);
-  S.mode='login';S.err=null;S.msg="Parol yangilandi. Eski ma'lumotlaringiz saqlanib qoldi, endi kirishingiz mumkin.";render();
-}
+
 function fail(m){S.err=m;S.msg=null;render()}
 function logout(){localStorage.removeItem(SES);Object.assign(S,{user:null,viewing:null,modal:null,draft:null,editing:false,mode:'login',q:'',dist:'',sort:'rating',pos:null,onlyFav:false});render()}
  
 function appView(){
-  const u=S.user,isB=u.role==='sartarosh',pc=pendingCount();
-  const tabs=isB?[['post',"✏️ E'lonim"],['cal',`📅 Kalendarim${pc?`<span class="badge">${pc}</span>`:''}`],['all',"📋 Barcha e'lonlar"]]:[['all',"🔎 E'lonlar"],['mine','🗓 Yozuvlarim']];
+  const u=S.user, isAdmin=(u.login === ADMIN_LOGIN || u.role === 'admin'), isB=u.role==='sartarosh', pc=pendingCount();
+  
+  let tabs = [];
+  if(isAdmin){
+    tabs = [
+      ['admin_stat', '📊 1. Statistika'],
+      ['admin_pay', '💳 2. Oylik toʻlovlar & Eʻlonlar'],
+      ['admin_users', '📋 3. Foydalanuvchilar'],
+      ['admin_crm', '📈 4. CRM Hisob-kitob']
+    ];
+  } else if(isB){
+    tabs = [
+      ['post', "✏️ E'lonim"],
+      ['cal', `📅 Kalendarim${pc?`<span class="badge">${pc}</span>`:''}`],
+      ['all', "📋 Barcha e'lonlar"],
+      ['sub_pay', "💳 Obuna to'lovi"]
+    ];
+  } else {
+    tabs = [['all',"🔎 E'lonlar"],['mine','🗓 Yozuvlarim']];
+  }
+
   let body='';
-  if(S.viewing)body=detailView(S.viewing);
-  else if(S.tab==='post')body=myPostTab();
-  else if(S.tab==='cal')body=myCalendar();
-  else if(S.tab==='all')body=allPosts();
-  else body=myBookings();
-  return `<div class="hero"><div><h1>✂ Sartaroshxona</h1><div class="sub">${esc(u.name)} · ${u.role} · <span class="live">jonli</span></div></div>
+  if(isAdmin){
+    if(S.tab==='admin_stat') body=adminStatView();
+    else if(S.tab==='admin_pay') body=adminPayView();
+    else if(S.tab==='admin_users') body=adminUsersView();
+    else if(S.tab==='admin_crm') body=adminCrmView();
+    else body=adminStatView();
+  } else if(S.viewing) {
+    body=detailView(S.viewing);
+  } else if(S.tab==='post') {
+    body=myPostTab();
+  } else if(S.tab==='cal') {
+    body=myCalendar();
+  } else if(S.tab==='all') {
+    body=allPosts();
+  } else if(S.tab==='mine') {
+    body=myBookings();
+  } else if(S.tab==='sub_pay') {
+    body=subPayTab();
+  } else {
+    body=allPosts();
+  }
+
+  return `<div class="hero"><div><h1>✂ Sartaroshxona</h1><div class="sub">${esc(u.name)} · ${isAdmin?'Admin':u.role} · <span class="live">jonli</span></div></div>
     <button class="btn glass sm" onclick="logout()">${IC.out}Chiqish</button></div>
     <div class="tabs">${tabs.map(([k,t])=>`<button class="${S.tab===k&&!S.viewing?'on':''}" onclick="setTab('${k}')">${t}</button>`).join('')}</div>
-    ${body}${S.modal?payModal():''}`;
+    ${body}${S.modal?payModal():''}
+    ${S.resetModalUser ? resetPasswordModalView() : ''}`;
 }
+
 function setTab(t){S.tab=t;S.viewing=null;S.week=0;S.day=null;S.msg=null;S.err=null;if(t!=='post'){S.editing=false;S.draft=null}render()}
+
+/* --- ADMIN MENYULARI --- */
+
+function adminStatView(){
+  const db=load();
+  const users=db.users||[];
+  const customers = users.filter(u => u.role === 'mijoz');
+  const barbers = users.filter(u => u.role === 'sartarosh');
+  const posts=Object.entries(db.posts||{});
+  const bookings=db.bookings||[];
+  
+  let expiredCount = 0;
+  let activeCount = 0;
+  posts.forEach(([login, p]) => {
+    if(isSubActive(p) && !p.isSuspended) activeCount++;
+    else expiredCount++;
+  });
+
+  return `<div class="card">
+    <h2>📊 1. Statistika</h2>
+    <div class="sum" style="margin-top:12px">
+      <div class="r"><span>Jami foydalanuvchilar</span><span><b>${users.length} ta</b></span></div>
+      <div class="r"><span>Foydalanuvchi mijozlar</span><span><b>${customers.length} ta</b></span></div>
+      <div class="r"><span>Foydalanuvchi sartaroshlar</span><span><b>${barbers.length} ta</b></span></div>
+      <div class="r"><span>Jami buyurtmalar</span><span><b>${bookings.length} ta</b></span></div>
+      <div class="r"><span>Faol e'lonlar (obunasi bor)</span><span style="color:var(--ok)"><b>${activeCount} ta</b></span></div>
+      <div class="r"><span>Muddati tugagan / To'xtatilgan e'lonlar</span><span style="color:var(--bad)"><b>${expiredCount} ta</b></span></div>
+    </div>
+  </div>`;
+}
+
+function adminPayView(){
+  const db=load();
+  const currentFee = db.settings?.monthlyFee || 10000;
+  const adminCard = db.settings?.adminCard || '8600000000000000';
+  const adminHolder = db.settings?.adminCardHolder || 'Admin';
+  const posts = Object.entries(db.posts || {});
+  const subReqs = db.subRequests || [];
+
+  return `
+  <div class="card">
+    <h2>💳 2. Oylik to'lov va Admin kartasi</h2>
+    <div class="row2" style="margin-top:12px">
+      <div>
+        <label>Sartaroshlar uchun oylik obuna narxi</label>
+        <input id="admin_monthly_fee" type="number" inputmode="numeric" value="${currentFee}">
+      </div>
+      <div>
+        <label>Admin karta raqami</label>
+        <input id="admin_card_num" value="${esc(adminCard)}" placeholder="8600...">
+      </div>
+    </div>
+    <label style="margin-top:10px">Karta egasining F.I.O</label>
+    <input id="admin_card_holder" value="${esc(adminHolder)}" placeholder="Ism Familiya">
+    <button class="btn primary block" style="margin-top:12px" onclick="updateAdminSettings()">Sozlamalarni saqlash</button>
+  </div>
+
+  <div class="card">
+    <h2>⏳ Sartaroshlardan tushgan to'lov so'rovlari (${subReqs.length})</h2>
+    <div class="list">
+      ${subReqs.length ? subReqs.map(req => {
+        const p = db.posts[req.barber];
+        return `
+          <div class="it" style="flex-direction:column;align-items:stretch;gap:6px">
+            <div style="display:flex;justify-content:space-between">
+              <div><b>${esc(p?.shop || req.barber)}</b><br><span class="hint">Tel: ${esc(req.barber)} · Sana: ${new Date(req.time).toLocaleString()}</span></div>
+              <div style="text-align:right"><span class="pill pending">To'lov qildim dedi</span></div>
+            </div>
+            <div style="display:flex;gap:8px;margin-top:4px">
+              <button class="btn success sm" onclick="approveSubRequest('${req.barber}')">✅ Tasdiqlash (1 oy ochish)</button>
+              <button class="btn outline sm" onclick="rejectSubRequest('${req.barber}')">❌ Rad etish / To'lanmagan</button>
+            </div>
+          </div>
+        `;
+      }).join('') : '<div class="empty">Yangi toʻlov soʻrovlari yoʻq</div>'}
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>📋 E'lonlar va obuna vaqtlarini boshqarish</h2>
+    <div class="hint" style="margin-bottom:12px">Hohlagan e'longa kun qo'shish yoki ayirish (masalan: 30 yoki -30):</div>
+    <div class="list">
+      ${posts.length ? posts.map(([login, p]) => {
+        const until = p.subUntil ? new Date(p.subUntil).toLocaleDateString() : 'Nomaʼlum';
+        const activeSub = isSubActive(p);
+        return `
+        <div class="it" style="flex-direction:column;align-items:stretch;gap:8px">
+          <div style="display:flex;justify-content:space-between;align-items:flex-start">
+            <div>
+              <b>${esc(p.shop)}</b> (${esc(p.district)} tumani)<br>
+              <span class="hint">📞 ${esc(p.phone)} · Tugash vaqti: <b>${until}</b></span><br>
+              <span class="pill ${activeSub && !p.isSuspended ? 'confirmed' : 'rejected'}" style="margin-top:4px">
+                ${p.isSuspended ? '⛔ Vaqtincha toʻxtatilgan' : (activeSub ? '✅ Obuna faol' : '⚠️ Muddati tugagan!')}
+              </span>
+            </div>
+          </div>
+          <div style="display:flex;gap:6px;align-items:center;flex-wrap:wrap;margin-top:6px">
+            <input type="number" id="days_input_${esc(login)}" value="30" style="width:100px;height:38px;font-size:14px;padding:0 8px" placeholder="Kun">
+            <button class="btn soft sm" onclick="adminAddCustomDays('${esc(login)}')">Vaqtni o'zgartirish</button>
+            <button class="btn outline sm" onclick="adminToggleSuspend('${esc(login)}')">${p.isSuspended ? '🔓 Yoqish' : '🔒 Yopish'}</button>
+            <button class="btn ghost sm" style="color:var(--bad)" onclick="adminDeletePost('${esc(login)}')">${IC.trash} O'chirish</button>
+          </div>
+        </div>
+      `;
+      }).join('') : '<div class="empty">E\'lonlar yo\'q</div>'}
+    </div>
+  </div>`;
+}
+
+function adminUsersView(){
+  const db=load();
+  const users=db.users||[];
+
+  return `<div class="card">
+    <h2>📋 3. Ro'yxatdan o'tgan foydalanuvchilar (Parol tiklash)</h2>
+    <div class="hint" style="margin-bottom:8px">Parolini unutgan foydalanuvchiga yangi parol o'rnatib berishingiz mumkin:</div>
+    <div class="list">
+      ${users.length ? users.map(u => `
+        <div class="it">
+          <div>
+            <b>📞 ${esc(u.phone)}</b> <span class="tag ${u.role==='sartarosh'?'me':''}">${u.role}</span><br>
+            <span class="hint">Ismi: ${esc(u.name || 'Nomaʼlum')}</span>
+          </div>
+          <div style="display:flex;gap:6px">
+            <button class="btn soft sm" onclick="openResetModal('${esc(u.login)}')">🔑 Parolni o'zgartirish</button>
+            <button class="btn ghost sm" style="color:var(--bad)" onclick="adminDeleteUser('${esc(u.login)}')">${IC.trash} O'chirish</button>
+          </div>
+        </div>
+      `).join('') : '<div class="empty">Foydalanuvchilar yo\'q</div>'}
+    </div>
+  </div>`;
+}
+
+function openResetModal(login){
+  S.resetModalUser = login;
+  S.showNewPass = false;
+  render();
+}
+
+function closeResetModal(){
+  S.resetModalUser = null;
+  render();
+}
+
+function resetPasswordModalView(){
+  const userLogin = S.resetModalUser;
+  const db = load();
+  const u = db.users.find(x => x.login === userLogin);
+  if(!u) return '';
+
+  return `<div class="modal" onclick="if(event.target===this){closeResetModal()}"><div class="box">
+    <h2>Parolni o'zgartirish</h2>
+    <p style="margin:8px 0;font-size:14px;color:var(--hint)">Foydalanuvchi: <b>${esc(u.phone)}</b></p>
+    <label>Yangi parol (kamida 6 ta belgi)</label>
+    <div style="position:relative;margin-bottom:14px">
+      <input id="new_admin_pass" type="${S.showNewPass?'text':'password'}" autocomplete="new-password" style="padding-right:45px" placeholder="••••••">
+      <button type="button" onclick="toggleShowNewPass()" style="position:absolute;right:10px;top:50%;transform:translateY(-50%);background:none;border:0;cursor:pointer;font-size:18px;padding:4px">${S.showNewPass?'🙈':'👁️'}</button>
+    </div>
+    <button class="btn primary block" onclick="saveNewPassword('${esc(userLogin)}')">Saqlash</button>
+    <button class="btn ghost block" style="margin-top:10px" onclick="closeResetModal()">Bekor qilish</button>
+  </div></div>`;
+}
+
+async function saveNewPassword(login){
+  const newPass = val('new_admin_pass');
+  if(!newPass || newPass.length < 6) return toast("Parol kamida 6 ta belgi bo'lishi kerak", "bad");
+  const db = load();
+  const u = db.users.find(x => x.login === login);
+  if(!u) return toast("Foydalanuvchi topilmadi", "bad");
+  u.pass = await hash(newPass);
+  save(db);
+  toast("Foydalanuvchi paroli muvaffaqiyatli o'zgartirildi ✅", "ok");
+  closeResetModal();
+}
+
+function adminCrmView(){
+  const db=load();
+  const posts = Object.entries(db.posts || {});
+  const fee = db.settings?.monthlyFee || 10000;
+  
+  let activeBarbers = 0;
+  posts.forEach(([_, p]) => {
+    if(isSubActive(p)) activeBarbers++;
+  });
+
+  const totalCollected = activeBarbers * fee;
+  const expenses = db.expenses || 0;
+  const netProfit = totalCollected - expenses;
+
+  return `<div class="card">
+    <h2>📈 4. CRM Hisob-kitob</h2>
+    <div class="sum" style="margin-top:12px">
+      <div class="r"><span>Faol obunali sartaroshlar</span><span><b>${activeBarbers} ta</b></span></div>
+      <div class="r"><span>Oylik to'lov stavkasi</span><span><b>${money(fee)}</b></span></div>
+      <div class="r"><span>Jami taxminiy tushum (Obunalar)</span><span style="color:var(--ok)"><b>${money(totalCollected)}</b></span></div>
+      <div class="r"><span>Akkauntga ketadigan xarajatlar</span><span style="color:var(--bad)"><b>${money(expenses)}</b></span></div>
+      <div class="r" style="border-top:2px solid var(--line);margin-top:4px;padding-top:8px">
+        <span>Sof foyda</span><span><b style="font-size:18px;color:var(--brand)">${money(netProfit)}</b></span>
+      </div>
+    </div>
+    <div class="sec" style="margin-top:16px">
+      <label>Server/Reklama/Boshqa xarajatlar summasini kiritish</label>
+      <div class="srow">
+        <input id="crm_expense_input" type="number" inputmode="numeric" value="${expenses}" placeholder="Masalan: 50000">
+        <button class="btn primary" onclick="updateExpenses()">Saqlash</button>
+      </div>
+    </div>
+  </div>`;
+}
+
+function updateExpenses(){
+  const valExp = +val('crm_expense_input');
+  if(isNaN(valExp) || valExp < 0) return toast("Summani to'g'ri kiriting", "bad");
+  const db = load();
+  db.expenses = valExp;
+  save(db);
+  toast("Xarajatlar miqdori saqlandi ✅", "ok");
+  render();
+}
+
+function updateAdminSettings(){
+  const fee = +val('admin_monthly_fee');
+  const card = val('admin_card_num').replace(/\D/g,'');
+  const holder = val('admin_card_holder');
+  if(!fee || fee < 0) return toast("Oylik to'lovni to'g'ri kiriting", "bad");
+  if(card.length !== 16) return toast("Karta raqami 16 ta bo'lishi kerak", "bad");
+  
+  const db = load();
+  db.settings = db.settings || {};
+  db.settings.monthlyFee = fee;
+  db.settings.adminCard = card;
+  db.settings.adminCardHolder = holder;
+  save(db);
+  toast("Admin sozlamalari saqlandi ✅", "ok");
+  render();
+}
+
+function approveSubRequest(barberLogin){
+  const db = load();
+  db.posts = db.posts || {};
+  if(db.posts[barberLogin]){
+    const current = db.posts[barberLogin].subUntil && db.posts[barberLogin].subUntil > Date.now() ? db.posts[barberLogin].subUntil : Date.now();
+    db.posts[barberLogin].subUntil = current + (30 * 24 * 3600 * 1000);
+    db.posts[barberLogin].isSuspended = false;
+  }
+  db.subRequests = (db.subRequests || []).filter(r => r.barber !== barberLogin);
+  save(db);
+  toast("To'lov tasdiqlandi, e'lon 1 oyga ochildi ✅", "ok");
+  render();
+}
+
+function rejectSubRequest(barberLogin){
+  const db = load();
+  db.subRequests = (db.subRequests || []).filter(r => r.barber !== barberLogin);
+  save(db);
+  toast("So'rov rad etildi (to'lanmagan)", "bad");
+  render();
+}
+
+function adminAddCustomDays(login){
+  const daysVal = +val('days_input_' + login);
+  if(isNaN(daysVal)) return toast("Kun miqdorini to'g'ri kiriting", "bad");
+  const db=load();
+  if(!db.posts[login]) return;
+  const current = db.posts[login].subUntil && db.posts[login].subUntil > Date.now() ? db.posts[login].subUntil : Date.now();
+  db.posts[login].subUntil = current + (daysVal * 24 * 3600 * 1000);
+  if(db.posts[login].subUntil > Date.now()) db.posts[login].isSuspended = false;
+  save(db);
+  toast(`Obuna vaqti ${daysVal > 0 ? '+' + daysVal : daysVal} kunga o'zgartirildi ✅`, 'ok');
+  render();
+}
+
+function adminToggleSuspend(login){
+  const db=load();
+  if(!db.posts[login]) return;
+  db.posts[login].isSuspended = !db.posts[login].isSuspended;
+  save(db);
+  toast(db.posts[login].isSuspended ? "E'lon vaqtincha yopildi" : "E'lon yoqildi ✅", 'ok');
+  render();
+}
+
+function adminDeleteUser(login){
+  if(!confirm("Bu foydalanuvchini o'chirasizmi?")) return;
+  const db=load();
+  db.users = db.users.filter(u => u.login !== login);
+  delete db.posts[login];
+  save(db);
+  toast("Foydalanuvchi o'chirildi", "ok");
+  render();
+}
+
+function adminDeletePost(login){
+  if(!confirm("Bu e'lonni o'chirasizmi?")) return;
+  const db=load();
+  delete db.posts[login];
+  save(db);
+  toast("E'lon o'chirildi", "ok");
+  render();
+}
+
+/* --- SARTAROSH OBUNA TO'LOVI MENYusi --- */
+function subPayTab(){
+  const db = load();
+  const p = db.posts[S.user.login];
+  const fee = db.settings?.monthlyFee || 10000;
+  const card = db.settings?.adminCard || '8600000000000000';
+  const holder = db.settings?.adminCardHolder || 'Admin';
+  const subUntil = p?.subUntil ? new Date(p.subUntil).toLocaleDateString() : 'Nomaʼlum';
+  const activeSub = isSubActive(p);
+  const subReqs = db.subRequests || [];
+  const hasPendingReq = subReqs.some(r => r.barber === S.user.login);
+
+  return `
+    <div class="card">
+      <h2>💳 Platforma obuna to'lovi</h2>
+      <div class="sum" style="margin-top:12px;margin-bottom:14px">
+        <div class="r"><span>Joriy obuna holati</span><span><b style="color:${activeSub?'var(--ok)':'var(--bad)'}">${activeSub ? 'Faol (' + subUntil + ' gacha)' : 'Muddati tugagan / Toʻlanmagan'}</b></span></div>
+        <div class="r"><span>Oylik to'lov miqdori</span><span><b>${money(fee)}</b></span></div>
+      </div>
+      <div class="hint" style="margin-bottom:10px">Platformadan foydalanishda davom etish uchun quyidagi admin kartasiga oylik to'lovni o'tkazing va "To'lab qo'ydim" tugmasini bosing:</div>
+      
+      <div class="ccard"><small>Admin kartasi</small><div class="num">${esc(fmtCard(card))}</div>
+        <div class="holder">${esc(holder)}</div><button class="copy" onclick="copyCard('${esc(card)}')">Nusxalash</button></div>
+
+      <div style="margin-top:16px">
+        ${hasPendingReq ? `<div class="okmsg">To'lov so'rovingiz adminga yuborildi. Tasdiqlanishi kutilmoqda ⏳</div>` :
+          `<button class="btn primary block" onclick="sendSubPaymentRequest()">💳 To'lab qo'ydim (Adminga xabar berish)</button>`}
+      </div>
+    </div>
+  `;
+}
+
+function sendSubPaymentRequest(){
+  const db = load();
+  db.subRequests = db.subRequests || [];
+  if(db.subRequests.some(r => r.barber === S.user.login)) return toast("So'rovingiz allaqachon yuborilgan", "bad");
+  db.subRequests.push({berber: S.user.login, barber: S.user.login, time: Date.now()});
+  save(db);
+  toast("To'lov so'rovi adminga yuborildi ⏳", "ok");
+  render();
+}
  
 function myPostTab(){
   const db=load(),saved=db.posts[S.user.login];
-  if(!saved||S.editing)return postForm();
+  const activeSub = saved ? isSubActive(saved) : true;
+  const monthlyFeeAmount = db.settings?.monthlyFee || 10000;
+  
+  let subWarning = '';
+  if(saved && !activeSub){
+    subWarning = `<div class="card" style="border-color:var(--warn);background:var(--warn-l)">
+      <h3 style="color:var(--warn)">⚠️ Obuna muddati tugagan (Oylik to'lov: ${money(monthlyFeeAmount)})</h3>
+      <p style="margin-top:6px;font-size:14px">Platformadan foydalanish va e'loningiz mijozlarga ko'rinishi uchun obuna to'lovini amalga oshiring.</p>
+      <button class="btn primary sm" style="margin-top:10px" onclick="setTab('sub_pay')">💳 Obuna to'lash menyusi</button>
+    </div>`;
+  }
+
+  if(!saved||S.editing)return subWarning + postForm();
   const item={login:S.user.login,p:saved,owner:S.user,r:rating(db,S.user.login),d:null};
-  return `${S.msg?`<div class="okmsg">${esc(S.msg)}</div>`:''}${postCard(item,{static:true,own:true})}`;
+  return subWarning + `${S.msg?`<div class="okmsg">${esc(S.msg)}</div>`:''}${postCard(item,{static:true,own:true})}`;
 }
 
 function addServiceRow(name='', price=''){
@@ -424,7 +836,7 @@ function addServiceRow(name='', price=''){
 
 function postForm(){
   const saved=load().posts[S.user.login];
-  const p=S.draft||saved||{shop:'',address:'',phone:S.user.phone,price:'',district:'',card:'',holder:S.user.name,days:[0,1,2,3,4],from:'09:00',to:'18:00',slot:60, services:[{name:'Soch kesish', price:50000},{name:'Soqol olish', price:30000}]};
+  const p=S.draft||saved||{shop:'',address:'',phone:S.user.phone,price:'',district:'',card:'',holder:'',days:[0,1,2,3,4],from:'09:00',to:'18:00',slot:60, services:[{name:'Soch kesish', price:50000},{name:'Soqol olish', price:30000}]};
   const hasLoc=p.lat!=null&&p.lng!=null;
   const servicesList = p.services || [{name:'Soch kesish', price:p.price || 50000}];
 
@@ -455,14 +867,15 @@ function postForm(){
    <div class="row2 keep"><div><label>Ish boshlanishi</label><input id="p_from" type="time" value="${p.from}"></div>
    <div><label>Ish tugashi</label><input id="p_to" type="time" value="${p.to}"></div></div>
    <label>Bir mijoz uchun vaqt</label><select id="p_slot">${[30,45,60,90].map(m=>`<option value="${m}" ${p.slot===m?'selected':''}>${m} daqiqa</option>`).join('')}</select>
-   <div class="sec"><h3 style="margin:12px 0 2px">💳 To'lov kartasi</h3>
-    <div class="hint">Mijozlar 50% oldindan to'lovni shu kartaga o'tkazadi. Pul tushganini o'zingiz ko'rib tasdiqlaysiz.</div>
+   <div class="sec"><h3 style="margin:12px 0 2px">💳 To'lov kartasi (Mijozlar to'lovi uchun)</h3>
+    <div class="hint">Mijozlar 50% oldindan to'lovni shu kartaga o'tkazadi.</div>
     <label>Karta raqami</label><input id="p_card" inputmode="numeric" maxlength="19" value="${esc(fmtCard(p.card))}" placeholder="8600 0000 0000 0000" oninput="this.value=fmtCard(this.value)">
     <label>Karta egasi</label><input id="p_holder" value="${esc(p.holder||'')}" placeholder="Ism Familiya"></div>
    ${S.err?`<div class="err">${esc(S.err)}</div>`:''}
    <button class="btn primary block" onclick="savePost()">${IC.save}Saqlash va e'lon qilish</button>
    ${saved?`<button class="btn ghost block" style="margin-top:10px" onclick="cancelEdit()">Bekor qilish</button>`:''}</div>`;
 }
+
 function readForm(){
   const base=S.draft||load().posts[S.user.login]||{};
   const serviceRows = document.querySelectorAll('#services_container .service-item');
@@ -473,60 +886,58 @@ function readForm(){
     if(name && price > 0) services.push({name, price});
   });
 
-  return {shop:val('p_shop').trim(),address:val('p_addr').trim(),phone:val('p_phone').trim(),price:+val('p_price'),district:val('p_dist'),
+  return {shop:val('p_shop'),address:val('p_addr'),phone:val('p_phone'),price:+val('p_price'),district:val('p_dist'),
     days:[...document.querySelectorAll('.p_day:checked')].map(x=>+x.value),from:val('p_from'),to:val('p_to'),slot:+val('p_slot'),
-    card:val('p_card').replace(/\D/g,''),holder:val('p_holder').trim(),lat:base.lat,lng:base.lng, services: services.length ? services : [{name:'Soch kesish', price:+val('p_price')||50000}]};
+    card:val('p_card').replace(/\D/g,''),holder:val('p_holder'),lat:base.lat,lng:base.lng, 
+    subUntil: base.subUntil || (Date.now() + 30*24*3600*1000),
+    isSuspended: base.isSuspended || false,
+    services: services.length ? services : [{name:'Soch kesish', price:+val('p_price')||50000}]};
 }
+
 function savePost(){
   const p=readForm();
   const bad=m=>{S.err=m;S.draft=p;render();};
   if(p.shop.length<2)return bad('Sartaroshxona nomini kiriting');
   if(!p.district)return bad('Tumanni tanlang');
   if(p.address.length<3)return bad('Manzilni kiriting');
-  if(p.phone.replace(/\D/g,'').length<9)return bad("Telefon raqamni to'g'ri kiriting");
+  if(p.phone.length<3)return bad("Telefon raqamni to'g'ri kiriting");
   if(!(p.price>=1000))return bad("Xizmat narxini kiriting");
   if(!p.days.length)return bad('Kamida bitta ish kunini tanlang');
   if(!p.from||!p.to||toMin(p.to)-toMin(p.from)<p.slot)return bad("Ish vaqti noto'g'ri");
   if(p.card.length!==16)return bad("Karta raqami 16 ta raqamdan iborat bo'lishi kerak");
   if(p.holder.length<3)return bad('Karta egasining ismini kiriting');
-  const db=load();db.posts[S.user.login]={...p,updated:Date.now()};save(db);
-  S.err=null;S.draft=null;S.editing=false;S.msg="E'lon saqlandi va barcha foydalanuvchilarga ko'rinmoqda ✅";
+  const db=load();
+  db.posts[S.user.login]={...p, updated:Date.now()};
+  save(db);
+  S.err=null;S.draft=null;S.editing=false;S.msg="E'lon saqlandi ✅";
   render();
 }
 function editPost(){S.tab='post';S.viewing=null;S.editing=true;S.draft=null;S.err=null;S.msg=null;render()}
 function cancelEdit(){S.editing=false;S.draft=null;S.err=null;render()}
 function deletePost(){
   const login=S.user.login,db=load(),act=db.bookings.filter(b=>b.barber===login&&active(b));
-  const msg=act.length?`E'loningizni o'chirasizmi?\n${act.length} ta faol yozuv bekor qilinadi (to'lov olgan bo'lsangiz, mijozlarga qaytaring).`:"E'loningizni o'chirasizmi?";
-  if(!confirm(msg))return;
+  if(!confirm("E'loningizni o'chirasizmi?"))return;
   act.forEach(b=>{b.status='cancelled';b.reason='post_deleted'});
   delete db.posts[login];db.ratings=db.ratings.filter(r=>r.barber!==login);save(db);
   S.editing=false;S.draft=null;S.msg=null;S.viewing=null;toast("E'lon o'chirildi");render();
 }
 function locate(){
-  if(!navigator.geolocation)return toast("Brauzer joylashuvni aniqlay olmaydi",'bad');
+  if(!navigator.geolocation)return toast("Joylashuvni aniqlab bo'lmadi",'bad');
   const p=readForm();S.draft=p;
   navigator.geolocation.getCurrentPosition(pos=>{S.draft={...p,lat:+pos.coords.latitude.toFixed(5),lng:+pos.coords.longitude.toFixed(5)};toast('Joylashuv aniqlandi ✅','ok');render()},
-    ()=>{toast("Joylashuvni aniqlab bo'lmadi. Brauzerda ruxsat bering (sayt HTTPS bo'lishi kerak)",'bad');render()},{timeout:9000,enableHighAccuracy:true});
+    ()=>{toast("Joylashuvni aniqlab bo'lmadi.",'bad');render()},{timeout:9000,enableHighAccuracy:true});
 }
 function clearLoc(){const p=readForm();delete p.lat;delete p.lng;S.draft=p;render()}
  
-/* 1. SEVIMLI QO'SHISH FUNKSIYASI */
 function toggleFavorite(login, event){
   event.stopPropagation();
   const db = load();
   db.favorites = db.favorites || {};
   db.favorites[S.user.login] = db.favorites[S.user.login] || [];
   const idx = db.favorites[S.user.login].indexOf(login);
-  if(idx > -1){
-    db.favorites[S.user.login].splice(idx, 1);
-    toast("Sevimlilardan olib tashlandi");
-  } else {
-    db.favorites[S.user.login].push(login);
-    toast("Sevimlilarga qo'shildi ❤️", "ok");
-  }
-  save(db);
-  render();
+  if(idx > -1){ db.favorites[S.user.login].splice(idx, 1); toast("Sevimlilardan olib tashlandi"); }
+  else { db.favorites[S.user.login].push(login); toast("Sevimlilarga qo'shildi ❤️", "ok"); }
+  save(db); render();
 }
 
 function postCard(i,o={}){
@@ -534,11 +945,8 @@ function postCard(i,o={}){
   const maskCard=fmtCard(p.card).replace(/^(\d{4}) (\d{4}) (\d{4})/,'$1 **** ****');
   const servicesList = p.services || [{name:'Soch kesish', price:p.price}];
   
-  // Sevimlilar tekshiruvi
   const db = load();
   const isFav = S.user && S.user.role === 'mijoz' && (db.favorites?.[S.user.login]?.includes(login));
-
-  // Xaritada ochish havolasi (Google/Yandex Maps)
   const pos = postPos(p);
   const mapUrl = pos ? `https://yandex.uz/maps/?rtext=~${pos[0]},${pos[1]}` : `https://yandex.uz/maps/?text=${encodeURIComponent(p.district + ' ' + p.address)}`;
 
@@ -552,9 +960,8 @@ function postCard(i,o={}){
       </div>
     </div>
     <div class="rline">${ratingLine(r)}</div>
-    <p>👤 ${esc(owner?.name||login)}</p>
-    <p>📍 ${p.district?esc(p.district)+' tumani · ':''}${esc(p.address)} <a href="${mapUrl}" target="_blank" onclick="event.stopPropagation()" style="color:var(--brand);font-weight:600;font-size:12px;margin-left:4px">[Xaritada]</a></p>
     <p>📞 ${esc(p.phone)}</p>
+    <p>📍 ${p.district?esc(p.district)+' tumani · ':''}${esc(p.address)} <a href="${mapUrl}" target="_blank" onclick="event.stopPropagation()" style="color:var(--brand);font-weight:600;font-size:12px;margin-left:4px">[Xaritada]</a></p>
     <p>🕒 ${p.from}–${p.to} · ${p.slot} daqiqa</p>
     <div style="margin-top:8px">${p.days.map(x=>`<span class="tag">${DAYS[x]}</span>`).join('')}</div>
     <div style="margin-top:8px;padding-top:6px;border-top:1px dashed var(--line)">
@@ -566,18 +973,27 @@ function postCard(i,o={}){
       <button class="btn ghost sm" style="color:var(--bad)" onclick="event.stopPropagation();deletePost()">${IC.trash}O'chirish</button></div>`:''}</div>`;
 }
  
+function rating(db,login){const r=db.ratings.filter(x=>x.barber===login);return{n:r.length,avg:r.length?r.reduce((s,x)=>s+x.stars,0)/r.length:0}}
+const starsHtml=avg=>{const n=Math.round(avg);return `<span class="stars">${'★'.repeat(n)}<i>${'★'.repeat(5-n)}</i></span>`};
+const ratingLine=r=>r.n?`${starsHtml(r.avg)} <b>${r.avg.toFixed(1)}</b> <span class="hint">(${r.n} ta baho)</span>`:`<span class="hint">☆ Hali baholanmagan</span>`;
+const rateInput=(barber,cur)=>`<span class="rate">${[1,2,3,4,5].map(n=>`<button class="${n<=cur?'on':''}" aria-label="${n} yulduz" onclick="rate('${esc(barber)}',${n})">★</button>`).join('')}</span>`;
+const canRate=(db,client,barber)=>db.bookings.some(b=>b.client===client&&b.barber===barber&&st(b)==='done');
+const myRating=(db,client,barber)=>db.ratings.find(x=>x.client===client&&x.barber===barber)?.stars||0;
+
 function listItems(db){
   const q=S.q.trim().toLowerCase();
-  let items=Object.entries(db.posts).map(([login,p])=>{
-    const owner=db.users.find(u=>u.login===login),pos=postPos(p);
-    return{login,p,owner,r:rating(db,login),d:(S.pos&&pos)?km(S.pos.lat,S.pos.lng,pos[0],pos[1]):null};
-  });
+  let items=Object.entries(db.posts)
+    .filter(([login, p]) => isSubActive(p))
+    .map(([login,p])=>{
+      const owner=db.users.find(u=>u.login===login),pos=postPos(p);
+      return{login,p,owner,r:rating(db,login),d:(S.pos&&pos)?km(S.pos.lat,S.pos.lng,pos[0],pos[1]):null};
+    });
   if(S.onlyFav && S.user){
     const favs = db.favorites?.[S.user.login] || [];
     items = items.filter(i => favs.includes(i.login));
   }
   if(S.dist)items=items.filter(i=>i.p.district===S.dist);
-  if(q)items=items.filter(i=>[i.p.shop,i.p.address,i.p.district,i.owner?.name].join(' ').toLowerCase().includes(q));
+  if(q)items=items.filter(i=>[i.p.shop,i.p.address,i.p.district].join(' ').toLowerCase().includes(q));
   const byRating=(a,b)=>(b.r.avg-a.r.avg)||(b.r.n-a.r.n)||((b.p.updated||0)-(a.p.updated||0));
   if(S.sort==='near'&&S.pos)items.sort((a,b)=>((a.d??1e9)-(b.d??1e9))||byRating(a,b));
   else items.sort(byRating);
@@ -586,7 +1002,7 @@ function listItems(db){
 function allPosts(){
   const db=load(),items=listItems(db),filtered=!!(S.q.trim()||S.dist||S.onlyFav);
   const search=`<div class="card"><h2>Sartaroshxona qidirish</h2>
-    <div class="srow"><input id="s_q" type="search" enterkeyhint="search" value="${esc(S.q)}" placeholder="Nomi, manzil yoki ism bo'yicha" onkeydown="if(event.key==='Enter')doSearch()">
+    <div class="srow"><input id="s_q" type="search" enterkeyhint="search" value="${esc(S.q)}" placeholder="Nomi yoki manzil bo'yicha" onkeydown="if(event.key==='Enter')doSearch()">
       <button class="btn primary" onclick="doSearch()">${IC.search}Qidirish</button></div>
     <div class="srow"><select id="s_dist" onchange="doSearch()"><option value="">Toshkent — barcha tumanlar</option>${Object.keys(DISTRICTS).map(d=>`<option value="${esc(d)}" ${S.dist===d?'selected':''}>${esc(d)} tumani</option>`).join('')}</select>
       <button class="btn soft" onclick="nearMe()">${IC.pin}Menga yaqin</button></div>
@@ -594,7 +1010,7 @@ function allPosts(){
       <button class="chip ${S.sort==='near'&&S.pos?'on':''}" onclick="nearMe()">📍 Yaqinlik bo'yicha</button>
       ${S.user && S.user.role === 'mijoz' ? `<button class="chip ${S.onlyFav?'on':''}" onclick="toggleOnlyFav()">❤️ Sevimlilarim</button>` : ''}
       ${(S.q||S.dist||S.pos||S.onlyFav)?`<button class="chip" onclick="clearSearch()">✕ Tozalash</button>`:''}</div></div>`;
-  if(!items.length)return search+`<div class="card empty"><div style="font-size:44px">🔎</div><b>E'lon yo'q</b><br>${filtered?"Bu hududda yoki so'rov bo'yicha hozircha e'lon topilmadi":"Hozircha e'lonlar yo'q."}</div>`;
+  if(!items.length)return search+`<div class="card empty"><div style="font-size:44px">🔎</div><b>E'lon yo'q</b><br>${filtered?"Bu hududda e'lon topilmadi":"Hozircha faol e'lonlar yo'q."}</div>`;
   return search+`<div class="hint" style="margin:0 4px 10px">Toshkent shahri · ${items.length} ta e'lon</div>
     <div class="grid">${items.map((i,k)=>postCard(i,{top:!S.onlyFav&&S.sort==='rating'&&k===0&&i.r.n>0})).join('')}</div>`;
 }
@@ -605,28 +1021,28 @@ function toggleOnlyFav(){S.onlyFav = !S.onlyFav; render()}
 function nearMe(){
   S.q=val('s_q');S.dist=val('s_dist');
   if(S.pos){S.sort='near';return render()}
-  if(!navigator.geolocation)return toast("Brauzer joylashuvni aniqlay olmaydi. Tumanni tanlang",'bad');
+  if(!navigator.geolocation)return toast("Joylashuvni aniqlab bo'lmadi",'bad');
   toast('Joylashuvingiz aniqlanmoqda…');
-  navigator.geolocation.getCurrentPosition(pos=>{S.pos={lat:pos.coords.latitude,lng:pos.coords.longitude};S.sort='near';toast("Eng yaqin sartaroshxonalar tepada ko'rsatildi ✅",'ok');render()},
-    ()=>toast("Joylashuvni aniqlab bo'lmadi. Ruxsat bering yoki tumanni tanlang",'bad'),{timeout:9000});
+  navigator.geolocation.getCurrentPosition(pos=>{S.pos={lat:pos.coords.latitude,lng:pos.coords.longitude};S.sort='near';toast("Eng yaqin sartaroshxonalar topildi ✅",'ok');render()},
+    ()=>toast("Joylashuvni aniqlab bo'lmadi.",'bad'),{timeout:9000});
 }
 function openPost(login){S.viewing=login;S.week=0;S.day=null;S.selectedServices=[];render()}
  
 function detailView(login){
   const db=load(),p=db.posts[login];
-  if(!p){S.viewing=null;return allPosts()}
+  if(!p || !isSubActive(p)){S.viewing=null;return allPosts()}
   const canBook=S.user.role==='mijoz',r=rating(db,login);
   const item={login,p,owner:db.users.find(u=>u.login===login),r,d:null};
   let rateBox='';
   if(S.user.role==='mijoz'){
     rateBox=canRate(db,S.user.login,login)
-      ?`<div class="card"><h2>Sartaroshni baholang</h2>${rateInput(login,myRating(db,S.user.login,login))}<div class="hint" style="margin-top:6px">Bahoni istalgan vaqtda o'zgartirishingiz mumkin</div></div>`
+      ?`<div class="card"><h2>Sartaroshni baholang</h2>${rateInput(login,myRating(db,S.user.login,login))}</div>`
       :`<div class="card"><div class="hint">⭐ Baholash uchun avval shu sartaroshdan xizmat olishingiz kerak.</div></div>`;
   }
   return `<button class="link" onclick="S.viewing=null;render()">← Orqaga</button>
    ${postCard(item,{static:true})}
    <div class="card"><h2>Haftalik kalendar</h2>
-    ${canBook?'<div class="hint" style="margin-bottom:10px">Bo\'sh (yashil) vaqtni bosing — 50% to\'lovdan keyin sartarosh tasdiqlaydi</div>':'<div class="hint" style="margin-bottom:10px">Faqat ko\'rish rejimi</div>'}
+    ${canBook?'<div class="hint" style="margin-bottom:10px">Bo\'sh vaqtni bosing — 50% to\'lovdan keyin tasdiqlanadi</div>':'<div class="hint" style="margin-bottom:10px">Faqat ko\'rish rejimi</div>'}
     ${calendar(login,canBook?'client':'view')}</div>${rateBox}`;
 }
  
@@ -634,9 +1050,9 @@ function cellOf(login,mode,bk,dm,ds,t,now, isDayOff){
   if(isDayOff) return {cls:'dayoff',label:'Dam olish'};
   const key=ds+'|'+t,b=bk[key],past=new Date(`${ds}T${t}`)<now;
   if(b){
-    const pend=st(b)==='pending',first=b.clientName.split(' ')[0];
-    if(mode==='barber')return pend?{cls:'pend',label:first,title:`${b.clientName} · ${b.clientPhone}`}
-      :{cls:'conf',label:first,title:`${b.clientName} · ${b.clientPhone} — bosing: soch olindi`,click:`finish('${b.id}')`};
+    const pend=st(b)==='pending',first=b.clientPhone;
+    if(mode==='barber')return pend?{cls:'pend',label:first,title:`${b.clientPhone}`}
+      :{cls:'conf',label:first,title:`${b.clientPhone}`,click:`finish('${b.id}')`};
     if(b.client===S.user.login)return pend?{cls:'pend',label:'Kutilmoqda'}:{cls:'mine',label:'Sizniki'};
     return{cls:'busy',label:'Band'};
   }
@@ -652,14 +1068,13 @@ function selDay(p){
 }
 function calendar(login,mode){
   const db=load(),p=db.posts[login];
-  if(!p)return `<div class="empty">E'lon hali joylanmagan</div>`;
+  if(!p)return `<div class="empty">E'lon yo'q</div>`;
   const ws=weekStart(S.week),dates=[...Array(7)].map((_,i)=>{const d=new Date(ws);d.setDate(ws.getDate()+i);return d});
   const times=slotTimes(p),now=new Date(),sd=selDay(p);
   const bk={},dm={};
   db.bookings.filter(b=>b.barber===login).forEach(b=>{const k=b.date+'|'+b.time;if(active(b))bk[k]=b;else if(st(b)==='done')dm[k]=b});
   
   const dayOffs = db.dayOffs?.[login] || [];
-
   const attrs=c=>`${c.click?`onclick="${c.click}"`:''} ${c.title?`title="${esc(c.title)}"`:''}`;
   
   const rows=times.map(t=>`<tr><td class="t">${t}</td>${dates.map((d,i)=>{
@@ -674,159 +1089,81 @@ function calendar(login,mode){
   const mslots=times.map(t=>{const c=cellOf(login,mode,bk,dm,selDateStr,t,now, isSelDayOff);
     return `<div class="mc cell ${c.cls}" ${attrs(c)}><b>${t}</b><span>${esc(c.label)}</span></div>`}).join('');
   
-  const dayOffToggleBtn = mode==='barber' ? `<div style="margin-bottom:12px"><button class="btn ${isSelDayOff?'success':'ghost'} sm" onclick="toggleDayOff('${login}','${selDateStr}')">${isSelDayOff?'✅ Ish kuni qilish (Dam olishni bekor qilish)':'🏖 Tanlangan kunni Dam olish kuni qilish'}</button></div>` : '';
+  const dayOffToggleBtn = mode==='barber' ? `<div style="margin-bottom:12px"><button class="btn ${isSelDayOff?'success':'ghost'} sm" onclick="toggleDayOff('${login}','${selDateStr}')">${isSelDayOff?'✅ Ish kuni qilish':'🏖 Dam olish kuni qilish'}</button></div>` : '';
 
   const nav=`<div class="weeknav"><button class="btn soft sm" onclick="S.week--;S.day=null;render()">‹ Oldingi</button>
     <b>${ws.getDate()}.${pad(ws.getMonth()+1)} – ${dates[6].getDate()}.${pad(dates[6].getMonth()+1)}</b>
     <button class="btn soft sm" onclick="S.week++;S.day=null;render()">Keyingi ›</button></div>`;
-  const legend=`<div class="legend"><span><i style="background:var(--ok-l)"></i>Bo'sh</span>
-    <span><i style="background:var(--warn-l);box-shadow:inset 0 0 0 1.5px #f2d58e"></i>To'lov tasdiqlanmoqda</span>
-    <span><i style="background:var(--brand)"></i>${mode==='client'?'Sizniki':'Tasdiqlangan'}</span>
-    ${mode==='barber'?'<span><i style="background:#198a4c"></i>Bajarildi</span>':'<span><i style="background:var(--busy)"></i>Band</span>'}
-    <span><i style="background:#e2d9db"></i>Dam olish</span>
-    <span><i style="background:#f6e6e8"></i>O\'tib ketgan</span></div>
-    ${mode==='barber'?'<div class="hint" style="margin-top:8px">💡 Qizil (tasdiqlangan) katakni bossangiz — «soch olindi» deb belgilanadi va vaqt yana bo\'sh bo\'ladi.</div>':''}`;
   return `${dayOffToggleBtn}${nav}
    <div class="desk"><div class="cal"><table><tr><th></th>${dates.map((d,i)=>`<th>${DAYS[i]}<b>${d.getDate()}</b></th>`).join('')}</tr>${rows}</table></div></div>
    <div class="mob"><div class="dchips">${dates.map((d,i)=>p.days.includes(i)
       ?`<button class="dchip ${i===sd?'on':''}" onclick="S.day=${i};render()">${DAYS[i]}<b>${d.getDate()}</b></button>`
       :`<button class="dchip off" disabled>${DAYS[i]}<b>${d.getDate()}</b></button>`).join('')}</div>
-     <div class="mslots">${mslots}</div></div>${legend}`;
+     <div class="mslots">${mslots}</div></div>`;
 }
 
-/* 2. DAM OLISH KUNINI BELGILASH */
 function toggleDayOff(login, dateStr){
   const db = load();
   db.dayOffs = db.dayOffs || {};
   db.dayOffs[login] = db.dayOffs[login] || [];
   const idx = db.dayOffs[login].indexOf(dateStr);
-  if(idx > -1){
-    db.dayOffs[login].splice(idx, 1);
-    toast("Dam olish kuni bekor qilindi, ish kuni belgilandi", "ok");
-  } else {
-    // Agar o'sha kunda band qilingan mijozlar bo'lsa ogohlantirish
-    const hasActive = db.bookings.some(b => b.barber === login && b.date === dateStr && active(b));
-    if(hasActive && !confirm("Bu kunda faol yozuvlar mavjud! Baribir dam olish kuni deb belgilaysizmi?")) return;
-    db.dayOffs[login].push(dateStr);
-    toast("Sana dam olish kuni deb belgilandi 🏖", "ok");
-  }
-  save(db);
-  render();
+  if(idx > -1){ db.dayOffs[login].splice(idx, 1); toast("Ish kuni belgilandi", "ok"); }
+  else { db.dayOffs[login].push(dateStr); toast("Dam olish kuni belgilandi 🏖", "ok"); }
+  save(db); render();
 }
  
 function myCalendar(){
   const db=load(),login=S.user.login,p=db.posts[login];
-  if(!p)return `<div class="card empty">Avval "E'lonim" bo'limida e'lon joylang.<br><br><button class="btn primary sm" onclick="setTab('post')">E'lon joylash</button></div>`;
+  if(!p)return `<div class="card empty">E'lon yo'q.<br><br><button class="btn primary sm" onclick="setTab('post')">E'lon joylash</button></div>`;
   const mineB=db.bookings.filter(b=>b.barber===login);
   const pend=mineB.filter(b=>st(b)==='pending').sort((a,b)=>a.created-b.created);
   const conf=mineB.filter(b=>st(b)==='confirmed').sort((a,b)=>(a.date+a.time).localeCompare(b.date+b.time));
   
-  const curMonth = ymd(new Date()).slice(0, 7);
-  const monthBookings = mineB.filter(b => b.date.startsWith(curMonth) && (st(b) === 'done' || st(b) === 'confirmed'));
-  const totalMonthIncome = monthBookings.reduce((s, b) => s + b.price, 0);
-  const onlinePaymentTotal = monthBookings.reduce((s, b) => s + deposit(b), 0);
-  const totalHaircuts = monthBookings.length;
-  const uniqueDays = new Set(monthBookings.map(b => b.date)).size;
-  const avgPerDay = uniqueDays ? (totalHaircuts / uniqueDays).toFixed(1) : 0;
-
-  const clientMap = {};
-  mineB.forEach(b => {
-    if (st(b) === 'done' || st(b) === 'confirmed') {
-      const cId = b.client || b.clientPhone;
-      if (!clientMap[cId]) {
-        clientMap[cId] = { name: b.clientName, phone: b.clientPhone, count: 0, lastDate: b.date, totalSpent: 0 };
-      }
-      clientMap[cId].count += 1;
-      clientMap[cId].totalSpent += b.price;
-      if (b.date > clientMap[cId].lastDate) clientMap[cId].lastDate = b.date;
-    }
-  });
-  const clientList = Object.values(clientMap).sort((a, b) => b.count - a.count);
-
-  const crmCard = `<div class="card">
-    <h2>👥 Mijozlar bazasi (CRM tarixi - ${clientList.length} ta)</h2>
-    <div class="hint" style="margin-bottom:10px">Sizda xizmat olgan doimiy mijozlar statistikasi</div>
-    <div class="list">
-      ${clientList.length ? clientList.map(c => `
-        <div class="it">
-          <div>
-            <b>${esc(c.name)}</b> <span class="badge" style="margin-left:4px">${c.count} marta</span><br>
-            <span class="hint">📞 <a href="tel:${esc(c.phone)}" style="color:inherit">${esc(c.phone)}</a></span><br>
-            <span class="hint">Oxirgi kelgani: ${fmtDate(c.lastDate)}</span>
-          </div>
-          <div style="text-align:right">
-            <span class="hint">Jami to'lov:</span><br>
-            <b style="color:var(--ok)">${money(c.totalSpent)}</b>
-          </div>
-        </div>
-      `).join('') : '<div class="empty" style="padding:15px">Hozircha mijozlar tarixi mavjud emas</div>'}
-    </div>
-  </div>`;
-
-  const statsCard = `<div class="card">
-    <h2>📊 Oylik statistika va daromad (${curMonth})</h2>
-    <div class="sum">
-      <div class="r"><span>Jami olingan sochlar</span><span><b>${totalHaircuts} ta</b></span></div>
-      <div class="r"><span>Kuniga o'rtacha</span><span><b>${avgPerDay} ta</b></span></div>
-      <div class="r"><span>Online to'lovlar (50% oldindan)</span><span style="color:var(--ok)"><b>${money(onlinePaymentTotal)}</b></span></div>
-      <div class="r"><span>Jami oylik daromad</span><span style="color:var(--brand)"><b>${money(totalMonthIncome)}</b></span></div>
-    </div>
-  </div>`;
-
-  const reqs=pend.length?`<div class="card"><h2>To'lovni tasdiqlash kerak (${pend.length})</h2>
-    <div class="hint" style="margin-bottom:12px">Kartangizni tekshiring. Pul tushgan bo'lsa «Tasdiqlash», tushmagan bo'lsa «To'lanmagan» ni bosing.</div>
+  const reqs=pend.length?`<div class="card"><h2>To'lovni tasdiqlash (${pend.length})</h2>
     ${pend.map(b=>`<div class="req"><div class="head">
-       <div><b>${fmtDate(b.date)} · ${b.time}</b><br><span class="hint">${esc(b.clientName)} · <a href="tel:${esc(b.clientPhone)}" style="color:inherit">${esc(b.clientPhone)}</a></span>
-       ${b.selectedServices?.length ? `<br><span class="hint">Xizmatlar: ${b.selectedServices.map(s => esc(s.name)).join(', ')}</span>` : ''}</div>
-       <div style="text-align:right"><span class="hint">Tushishi kerak</span><br><b style="font-size:18px;color:var(--brand)">${money(deposit(b))}</b></div></div>
-       <div class="acts"><button class="btn success" onclick="decide('${b.id}','confirmed')">${IC.check}Pul tushdi — tasdiqlash</button>
-       <button class="btn outline" onclick="decide('${b.id}','rejected')">${IC.x}To'lanmagan</button></div></div>`).join('')}</div>`:'';
+       <div><b>${fmtDate(b.date)} · ${b.time}</b><br><span class="hint">📞 ${esc(b.clientPhone)}</span></div>
+       <div style="text-align:right"><b style="font-size:18px;color:var(--brand)">${money(deposit(b))}</b></div></div>
+       <div class="acts"><button class="btn success" onclick="decide('${b.id}','confirmed')">Tasdiqlash</button>
+       <button class="btn outline" onclick="decide('${b.id}','rejected')">Rad etish</button></div></div>`).join('')}</div>`:'';
   
-  return `${statsCard}${reqs}${crmCard}<div class="card"><h2>Mening haftalik kalendarim</h2>${calendar(login,'barber')}</div>
-   <div class="card"><h2>Tasdiqlangan yozuvlar (${conf.length})</h2><div class="list">${conf.length?conf.map(b=>`<div class="it"><div><b>${fmtDate(b.date)} · ${b.time}</b><br><span class="hint">${esc(b.clientName)} · ${esc(b.clientPhone)}</span>
-      ${b.selectedServices?.length ? `<br><span class="hint">Xizmatlar: ${b.selectedServices.map(s => esc(s.name)).join(', ')}</span>` : ''}<br>
-      <button class="btn success sm" style="margin-top:8px" onclick="finish('${b.id}')">${IC.scissors}Soch olindi</button></div>
-      <div style="text-align:right"><b>${money(b.price)}</b><br><span class="hint">oldindan: ${money(deposit(b))}</span></div></div>`).join(''):'<div class="empty">Hozircha tasdiqlangan yozuvlar yo\'q</div>'}</div></div>`;
+  return `${reqs}<div class="card"><h2>Mening kalendarim</h2>${calendar(login,'barber')}</div>
+   <div class="card"><h2>Tasdiqlangan yozuvlar (${conf.length})</h2><div class="list">${conf.length?conf.map(b=>`<div class="it"><div><b>${fmtDate(b.date)} · ${b.time}</b><br><span class="hint">📞 ${esc(b.clientPhone)}</span><br>
+      <button class="btn success sm" style="margin-top:8px" onclick="finish('${b.id}')">Soch olindi</button></div>
+      <div style="text-align:right"><b>${money(b.price)}</b></div></div>`).join(''):'<div class="empty">Yozuvlar yo\'q</div>'}</div></div>`;
 }
  
 function decide(id,status){
   const db=load(),b=db.bookings.find(x=>x.id===id);if(!b||st(b)!=='pending')return render();
-  if(status==='rejected'&&!confirm("Pul kartangizga tushmaganini tasdiqlaysizmi? Bu vaqt yana bo'sh bo'lib qoladi."))return;
   b.status=status;b.decidedAt=Date.now();save(db);
-  toast(status==='confirmed'?"To'lov tasdiqlandi, yozuv faol ✅":"«To'lanmagan» deb belgilandi, vaqt bo'shatildi",status==='confirmed'?'ok':'bad');
+  toast(status==='confirmed'?"Tasdiqlandi ✅":"Rad etildi",'ok');
   render();
 }
 function finish(id){
   const db=load(),b=db.bookings.find(x=>x.id===id);if(!b||st(b)!=='confirmed')return render();
-  if(!confirm(`${b.clientName}ning sochi olindimi? Bu vaqt yana bo'sh bo'lib qoladi.`))return;
   b.status='done';b.doneAt=Date.now();save(db);
-  toast("Soch olindi ✅ Vaqt yana bo'sh","ok");render();
+  toast("Soch olindi ✅","ok");render();
 }
  
 function myBookings(){
   const db=load(),mine=db.bookings.filter(b=>b.client===S.user.login).sort((a,b)=>(b.date+b.time).localeCompare(a.date+a.time));
   return `<div class="card"><h2>Mening yozuvlarim</h2><div class="list">${mine.length?mine.map(b=>{const p=db.posts[b.barber],s=st(b);return `<div class="it"><div>
-     <b>${fmtDate(b.date)} · ${b.time}</b><br><span class="hint">${esc(p?.shop||b.shop||b.barber)}${p?' · '+esc(p.address):''}</span><br>
-     ${b.selectedServices?.length ? `<span class="hint">Xizmatlar: ${b.selectedServices.map(srv=>esc(srv.name)).join(', ')}</span><br>` : ''}
+     <b>${fmtDate(b.date)} · ${b.time}</b><br><span class="hint">${esc(p?.shop||b.barber)}</span><br>
      <span class="pill ${s}" style="margin-top:6px">${STATUS[s]}</span>
-     ${s==='pending'?`<div class="hint" style="margin-top:6px">Sartarosh kartasiga pul tushganini tekshirmoqda…</div>
-       <button class="link" onclick="cancelBooking('${b.id}')">Bekor qilish</button>`:''}
-     ${s==='rejected'?`<div class="hint" style="margin-top:6px">Sartarosh to'lovni ko'rmadi. Pulni o'tkazgan bo'lsangiz, sartarosh bilan bog'laning${p?': '+esc(p.phone):''}.</div>`:''}
-     ${s==='cancelled'&&b.reason==='post_deleted'?`<div class="hint" style="margin-top:6px">Sartarosh e'lonini o'chirdi. To'lov qilgan bo'lsangiz, pulni qaytarishini so'rang.</div>`:''}
-     ${s==='done'&&p?`<div style="margin-top:8px"><span class="hint">Sartaroshni baholang:</span><br>${rateInput(b.barber,myRating(db,S.user.login,b.barber))}</div>`:''}</div>
-     <div style="text-align:right"><b>${money(b.price)}</b><br><span class="hint">oldindan: ${money(deposit(b))}</span><br><span class="hint">qolgan: ${money(b.price-deposit(b))}</span></div></div>`}).join(''):'<div class="empty">Siz hali yozilmagansiz</div>'}</div></div>`;
+     ${s==='pending'?`<button class="link" onclick="cancelBooking('${b.id}')">Bekor qilish</button>`:''}
+     ${s==='done'&&p?`<div style="margin-top:8px"><span class="hint">Baholash:</span><br>${rateInput(b.barber,myRating(db,S.user.login,b.barber))}</div>`:''}</div>
+     <div style="text-align:right"><b>${money(b.price)}</b></div></div>`}).join(''):'<div class="empty">Siz hali yozilmagansiz</div>'}</div></div>`;
 }
 function cancelBooking(id){
-  if(!confirm("Yozilishni bekor qilasizmi? Agar pulni o'tkazgan bo'lsangiz, sartarosh bilan o'zingiz kelishasiz."))return;
+  if(!confirm("Bekor qilasizmi?"))return;
   const db=load(),b=db.bookings.find(x=>x.id===id);if(!b||st(b)!=='pending')return render();
-  b.status='cancelled';save(db);toast('Yozilish bekor qilindi');render();
+  b.status='cancelled';save(db);toast('Bekor qilindi');render();
 }
 function rate(barber,n){
   const db=load();
-  if(!S.user||S.user.role!=='mijoz'||!db.posts[barber]||!canRate(db,S.user.login,barber))return toast("Baholash uchun avval xizmat olishingiz kerak",'bad');
+  if(!S.user||S.user.role!=='mijoz'||!db.posts[barber]||!canRate(db,S.user.login,barber))return toast("Oldin xizmat olishingiz kerak",'bad');
   const ex=db.ratings.find(x=>x.client===S.user.login&&x.barber===barber);
   if(ex){ex.stars=n;ex.updated=Date.now()}else db.ratings.push({barber,client:S.user.login,stars:n,created:Date.now()});
-  save(db);toast(`Bahoyingiz uchun rahmat! ${'★'.repeat(n)}`,'ok');render();
+  save(db);toast(`Rahmat! ${'★'.repeat(n)}`,'ok');render();
 }
 
 function toggleServiceSelect(idx){
@@ -834,17 +1171,14 @@ function toggleServiceSelect(idx){
   const srvList = p?.services || [{name:'Soch kesish', price:p.price}];
   const target = srvList[idx];
   const existIdx = S.selectedServices.findIndex(s => s.name === target.name);
-  if(existIdx > -1){
-    S.selectedServices.splice(existIdx, 1);
-  } else {
-    S.selectedServices.push(target);
-  }
+  if(existIdx > -1) S.selectedServices.splice(existIdx, 1);
+  else S.selectedServices.push(target);
   render();
 }
 
 function askBook(barber,date,time){
   const p=load().posts[barber];
-  if(!p?.card){toast("Bu sartarosh hali to'lov kartasini kiritmagan. Keyinroq urinib ko'ring",'bad');return}
+  if(!p?.card){toast("Sartarosh karta kiritmagan",'bad');return}
   const srvList = p.services || [{name:'Soch kesish', price:p.price}];
   S.selectedServices = [srvList[0]];
   S.modal={barber,date,time};render();
@@ -857,9 +1191,7 @@ function payModal(){
   const depPrice = totalPrice / 2;
 
   return `<div class="modal" onclick="if(event.target===this){S.modal=null;render()}"><div class="box">
-   <h2>Xizmatlar va to'lov (50%)</h2>
-   
-   <label style="margin:0 0 6px">Kerakli xizmatlarni tanlang:</label>
+   <h2>To'lov (50%)</h2>
    <div style="max-height:140px;overflow-y:auto;margin-bottom:12px">
      ${srvList.map((srv, idx) => {
        const isChecked = S.selectedServices.some(s => s.name === srv.name);
@@ -869,43 +1201,38 @@ function payModal(){
        </div>`;
      }).join('')}
    </div>
-
-   <div class="sum"><div class="r"><span>Sartaroshxona</span><span>${esc(p.shop)}</span></div>
-   <div class="r"><span>Sana</span><span>${fmtDate(m.date)}</span></div><div class="r"><span>Vaqt</span><span>${m.time}</span></div>
-   <div class="r"><span>Umumiy narx</span><span><b>${money(totalPrice)}</b></span></div></div>
-   <div class="amount"><span>O'tkazishingiz kerak (50%)</span><b>${money(depPrice)}</b></div>
-   <div class="ccard"><small>Sartarosh kartasi</small><div class="num">${esc(fmtCard(p.card))}</div>
+   <div class="sum"><div class="r"><span>Sana</span><span>${fmtDate(m.date)}</span></div><div class="r"><span>Vaqt</span><span>${m.time}</span></div></div>
+   <div class="amount"><span>O'tkazish kerak (50%)</span><b>${money(depPrice)}</b></div>
+   <div class="ccard"><small>Karta</small><div class="num">${esc(fmtCard(p.card))}</div>
      <div class="holder">${esc(p.holder||'')}</div><button class="copy" onclick="copyCard('${esc(p.card)}')">Nusxalash</button></div>
-   <ul class="steps"><li>Yuqoridagi kartaga <b>&nbsp;${money(depPrice)}&nbsp;</b> o'tkazing</li>
-     <li>«To'lab qo'ydim» tugmasini bosing</li><li>Sartarosh pulni ko'rib, yozilishingizni tasdiqlaydi</li></ul>
-   <button class="btn primary block" onclick="paid()">${IC.wallet}To'lab qo'ydim</button>
-   <button class="btn ghost block" style="margin-top:10px" onclick="S.modal=null;render()">Bekor qilish</button>
-   <div class="hint" style="margin-top:12px;text-align:center">Tugmani bosganingizdan keyin bu vaqt siz uchun band qilib turiladi.</div></div></div>`;
+   <button class="btn primary block" onclick="paid()">To'lab qo'ydim</button>
+   <button class="btn ghost block" style="margin-top:10px" onclick="S.modal=null;render()">Bekor qilish</button></div></div>`;
 }
 
 function copyCard(c){
-  try{navigator.clipboard.writeText(c).then(()=>toast('Karta raqami nusxalandi ✅','ok'),()=>toast("Nusxalab bo'lmadi, qo'lda yozing"))}
-  catch(e){toast("Nusxalab bo'lmadi, qo'lda yozing")}
+  try{navigator.clipboard.writeText(c).then(()=>toast('Karta nusxalandi ✅','ok'))}catch(e){}
 }
 function paid(){
   const m=S.modal,db=load(),p=db.posts[m.barber];
   if(!p){S.modal=null;return render()}
   if(db.bookings.some(b=>b.barber===m.barber&&b.date===m.date&&b.time===m.time&&active(b))){
-    S.modal=null;toast("Kechirasiz, bu vaqtni hozirgina boshqa mijoz band qildi. Boshqa vaqtni tanlang",'bad');return render();
+    S.modal=null;toast("Bu vaqt band qilindi",'bad');return render();
   }
   const srvList = p.services || [{name:'Soch kesish', price:p.price}];
   const selServices = S.selectedServices.length ? S.selectedServices : [srvList[0]];
   const totalPrice = selServices.reduce((sum, s) => sum + s.price, 0);
 
-  db.bookings.push({id:Date.now().toString(36)+Math.random().toString(36).slice(2,6),barber:m.barber,shop:p.shop,client:S.user.login,clientName:S.user.name,clientPhone:S.user.phone,
+  db.bookings.push({id:Date.now().toString(36)+Math.random().toString(36).slice(2,6),barber:m.barber,shop:p.shop,client:S.user.login,clientPhone:S.user.phone,
     date:m.date,time:m.time,price:totalPrice,deposit:totalPrice/2,selectedServices:selServices,status:'pending',created:Date.now()});
   save(db);S.modal=null;S.tab='mine';S.viewing=null;
-  toast("So'rov sartaroshga yuborildi. Tasdiqlashini kuting ⏳",'ok');
+  toast("So'rov yuborildi ⏳",'ok');
   render();
 }
  
 function render(){
-  const keep={};['a_name','a_phone','a_login','a_pass','s_q','s_dist'].forEach(id=>{if($(id))keep[id]=$(id).value});
+  const keep={};['a_phone','a_pass','s_q','s_dist','admin_monthly_fee','admin_card_num','admin_card_holder','crm_expense_input','new_admin_pass'].forEach(id=>{if($(id))keep[id]=$(id).value});
+  document.querySelectorAll('[id^="days_input_"]').forEach(el => { keep[el.id] = el.value; });
+
   $('app').innerHTML=S.user?appView():authView();
   Object.entries(keep).forEach(([id,v])=>{if($(id))$(id).value=v});
   lastPending=pendingCount();
@@ -914,25 +1241,23 @@ function render(){
 async function initApp() {
   await loadAsync();
   S.user = currentUser();
-  if (S.user && !S.tab) S.tab = S.user.role === 'sartarosh' ? 'post' : 'all';
+  if (S.user && !S.tab) {
+    if(S.user.login === ADMIN_LOGIN) S.tab = 'admin_stat';
+    else S.tab = S.user.role === 'sartarosh' ? 'post' : 'all';
+  }
   render();
 }
 initApp();
  
 window.addEventListener('storage',e=>{
-  if(e.key===SES){S.user=currentUser();if(!S.user){S.viewing=null;S.modal=null}else if(!S.tab)S.tab=S.user.role==='sartarosh'?'post':'all';render();return}
-  if(e.key!==KEY||!S.user)return;
-  const n=pendingCount();
-  if(n>lastPending)toast("🔔 Yangi to'lov so'rovi! Kalendarimni oching",'ok');
-  const typing=formOpen()||document.activeElement?.id==='s_q';
-  if(!typing&&!S.modal)render();else lastPending=n;
+  if(e.key===SES){S.user=currentUser();if(!S.user){S.viewing=null;S.modal=null}else if(!S.tab){S.tab=S.user.login===ADMIN_LOGIN?'admin_stat':(S.user.role==='sartarosh'?'post':'all');}render();return}
 });
 
 setInterval(async ()=>{
   await loadAsync();
   if(S.user&&!S.modal&&!formOpen()&&document.activeElement?.id!=='s_q') {
     const n = pendingCount();
-    if (n > lastPending) toast("🔔 Yangi to'lov so'rovi! Kalendarimni oching", 'ok');
+    if (n > lastPending) toast("🔔 Yangi to'lov so'rovi!", 'ok');
     render();
     lastPending = n;
   }
